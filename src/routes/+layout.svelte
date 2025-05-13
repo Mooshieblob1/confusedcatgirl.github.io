@@ -3,9 +3,9 @@
 
 	const links = [
 		{ href: '/', label: 'Home' },
-		{ href: '#cloud', label: 'Cloud' },
-		{ href: '#projects', label: '3D-Printed Projects' },
-		{ href: '#contact', label: 'Contact' },
+		{ href: '/#cloud', label: 'Cloud' },
+		{ href: '/#projects', label: '3D-Printed Projects' },
+		{ href: '/#contact', label: 'Contact' },
 		{ href: '/tos', label: 'Terms of Service' }
 	];
 </script>
