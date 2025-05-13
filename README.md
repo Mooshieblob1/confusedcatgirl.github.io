@@ -1,38 +1,62 @@
-# sv
+# confusedblorb.org
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is my socials website!  
+Available at **[confusedblorb.org](https://confusedblorb.org/)**
 
-## Creating a project
+---
 
-If you're seeing this, you've probably already done this step. Congrats!
+## 🧠 Overview
 
-```bash
-# create a new project in the current directory
-npx sv create
+A cozy, responsive personal landing site built with **SvelteKit** and **Tailwind CSS**, featuring a hand-crafted retro-futurist aesthetic and a soft blurred-glass layout.
 
-# create a new project in my-app
-npx sv create my-app
+This site serves as a public homepage for Blorb (a.k.a. confusedcatgirl), showcasing projects, contact links, and a few 3D-printed hobby works.
+
+---
+
+## ✨ Features
+
+- ✅ **Single-page layout with anchor links**
+- ✅ **Translucent blurred navbar and section boxes**
+- ✅ **SvelteKit layout system with slot-based routing**
+- ✅ `/tos` is a full separate route with consistent layout and styling
+- ✅ Shared footer with attribution moved to layout (`About` section)
+- ✅ Local navigation highlighting and smooth experience
+- ✅ Optimized for both desktop and mobile displays
+- ✅ No JavaScript frameworks beyond Svelte — lightweight and clean!
+
+---
+
+## 📁 Structure
+
+```
+src/
+├── routes/
+│   ├── +page.svelte        # Main homepage content (sections)
+│   ├── tos/
+│   │   └── +page.svelte    # Terms of Service route
+│   └── +layout.svelte      # Shared layout (banner, nav, footer)
+├── app.css                 # Tailwind + custom styles
+└── app.html                # HTML entry template
 ```
 
-## Developing
+---
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## 🛠 Tech Stack
 
-```bash
-npm run dev
+- **SvelteKit** — App framework
+- **Tailwind CSS** (built-in integration)
+- **HTML/CSS** — Fully responsive design
+- **Deployed at**: [confusedblorb.org](https://confusedblorb.org)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+---
 
-## Building
+## 📸 Credits
 
-To create a production version of your app:
+- Banner: [mooshieblob.com](https://www.mooshieblob.com/)
+- Footer art: [Yuuki Tatsuya, 2011](https://danbooru.donmai.us/posts/1029426)
 
-```bash
-npm run build
-```
+---
 
-You can preview the production build with `npm run preview`.
+## 📜 License
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+Personal project, not open for redistribution.
